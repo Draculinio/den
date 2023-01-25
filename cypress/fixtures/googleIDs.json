@@ -1,0 +1,6 @@
+{
+	"url": "https://www.google.com/",
+	"searchField": "input[name='q']",
+	"searchButton": "[type='submit]",
+	"resultLink": "h3"
+}

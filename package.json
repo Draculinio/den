@@ -1,0 +1,15 @@
+{
+  "name": "Automation_Cypress_Test",
+  "version": "1.0.0",
+  "description": "Cypress Automation Framework with Cucumber",
+  "main": "index.js",
+  "scripts": {
+    "googleSearch": "cypress run --spec cypress/integration/googleTest.feature --headed --no-exit --browser chrome"
+  },
+  "devDependencies": {
+    "cypress": "^12.3.0"
+  },
+  "dependencies": {
+    "cypress-cucumber-preprocessor": "^2.0.1"
+  }
+}
